@@ -10,7 +10,7 @@
 .B , ...)
 .SH DESCRIPTION
 .B _printf()
-pprints to standard output under the control of a 
+prints to standard output under the control of a
 .l format
 .SH Return value
 on successful return, these functions return the number of characters printed,
@@ -31,7 +31,7 @@ in two digit hexadecimal
 The int argument is converted to unsigned decimal notation
 .TP
 .B x, X
-The unsigned int argument is vonverted to unsigned lowercase hexadecimal notation(x), or 
+The unsigned int argument is vonverted to unsigned lowercase hexadecimal notation(x), or
 unsigned uppercase hexadecimal notation(X).
 .TP
 .B u
@@ -39,7 +39,7 @@ The unsigned int argument is converted to unsigned decimal notation
 .TP
 .B o, b
 The unsigned int argument is converted to unsigned octal notation(0) or binary notation(b).
-.TP 
+.TP
 .B p
 Address is printed in hexadecimal
 .Tp
